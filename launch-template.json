@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/obdsim.elf",
+            "servertype": "external",
+            "gdbPath" : "path/to/arm-none-eabi-gdb.exe",
+            "gdbTarget": "192.168.0.240:3333"
+          }
+    ]
+}
